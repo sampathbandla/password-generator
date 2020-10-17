@@ -6,4 +6,4 @@ This is a simple HTML JS password generator with few lines of Code
 You can contibute this app by simple issues 
 
 # Outpue
-https://example.com
+https://sampg.netlify.app/

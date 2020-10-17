@@ -1,0 +1,35 @@
+{
+    "name": "PG",
+    "version": "1.0",
+    "description": "Password Generator",
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "storage",
+        "contextMenus"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "icons": {
+        "16": "16x16.png",
+        "48": "48x48.png",
+        "64": "64x64.png",
+        "128": "128x128.png",
+        "256": "256x256.png"
+    },
+    "manifest_version": 2,
+    "page_action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "16x16.png",
+            "48": "48x48.png",
+            "64": "64x64.png",
+            "128": "128x128.png",
+            "256": "256x256.png"
+        }
+    }
+}
